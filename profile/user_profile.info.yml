@@ -1,0 +1,23 @@
+name: Profile Name
+type: profile
+description: 'Description profile.'
+core: 8.x
+
+distribution:
+  name: Distribution Name
+  langcode: de
+
+install:
+  - shield
+  - devel
+  - admin_menu
+  - hacked
+
+dependencies:
+  - node
+  - block
+  - views
+
+themes:
+  - bartik
+  - seven
